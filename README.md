@@ -1,4 +1,9 @@
 # Bash-Website-Monitoring
+
+NOTE: GitHub messes with some of the layout of this page. Please view the RAW version to see how it is supposed to look:
+https://raw.githubusercontent.com/akseltelle/Bash-Website-Monitoring/main/README.md
+
+
 Monitoring of websites using Bash with notifications to Telegram
 
 This script is really simple to use and easy to set up.
