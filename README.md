@@ -16,10 +16,12 @@ This script checks after a file on the website you are checking named telegram.p
 To automate the script, add the script to Crontab:
 
 Run the following command:
+
 $ crontab -e
 
 Add the following to the bottom of the file (Edit the path to where you have placed the script):
 * * * * * bash /home/<user>/telegram.sh >> /home/<user>/crontab-job.log 2>&1
 
 Check if the script is running every minute with the following command:
+  
 $ tail -f crontab-job.log
