@@ -19,6 +19,7 @@ Run the following command:
 
 $ crontab -e
 
+
 Add the following to the bottom of the file (Edit the path to where you have placed the script):
 * * * * * bash /home/<user>/telegram.sh >> /home/<user>/crontab-job.log 2>&1
 
